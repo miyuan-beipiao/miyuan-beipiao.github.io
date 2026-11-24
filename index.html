@@ -58,6 +58,25 @@
         #profile .image.avatar img { width: 135px !important; }
         #publications .papers article.paper { padding: 10px 2px; margin-bottom: 20px; }
       }
+      /* 确保顶部导航栏始终处于最上层 */
+      .site-nav {
+        z-index: 99999 !important;
+      }
+    
+      /* 限制 Projects 模块的层级 */
+      #projects {
+        position: relative;
+        z-index: 0;
+        isolation: isolate;
+      }
+    
+      /* 限制 3D 动态词云的显示范围 */
+      #tagcloud {
+        position: relative;
+        z-index: 0;
+        isolation: isolate;
+        overflow: hidden;
+      }
     </style>
   </head>
   <body>
@@ -420,8 +439,8 @@
         <section id="experience">
           <h2>Education &amp; Experience</h2>
           <ul>
-            <li><strong>Sep 2021 – Jul 2026 — Ph.D. in Artificial Intelligence</strong><br/>Gaoling School of Artificial Intelligence, Renmin University of China<br/>Advisor: Prof. Hao Sun · GPA: 3.91 / 4.00</li>
-            <li><strong>Sep 2018 – Jul 2021 — M.Eng. in Computer Application Technology</strong><br/>School of Information, Beijing Wuzi University<br/>Advisor: Prof. Hengliang Tang</li>
+            <li><strong>Sep 2021 – Jul 2026 — Ph.D. in Artificial Intelligence</strong><br/>Gaoling School of Artificial Intelligence, Renmin University of China</li>
+            <li><strong>Sep 2018 – Jul 2021 — M.Eng. in Computer Application Technology</strong><br/>School of Information, Beijing Wuzi University</li>
             <li><strong>Jul 2015 – Jul 2016 — Backend Developer</strong><br/>Central Purchasing Department, Charoen Pokphand Group</li>
             <li><strong>Sep 2011 – Jul 2015 — B.Eng. in Electronic Commerce</strong><br/>College of Information Engineering, Northwest A&amp;F University</li>
           </ul>
