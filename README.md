@@ -43,3 +43,16 @@
 - 已核实的链接：学院/导师官方网站、KDD 2026 DBLP 记录、CiGNN arXiv 和 GitHub 仓库、HSSC DOI、ICML PMLR、AAAI 论文页、CPC DOI。
 - 更新个人链接：在 `index.html` 搜索 `contact-links`；Google Scholar 目前为搜索入口，GitHub 未填写。更新论文资源：搜索 `paper-links`，将 `<span class="pending-link">` 改成实际 `<a href="...">` 链接。
 - 保留 V2 的论文筛选、作者展开、词云和火星页脚。
+
+
+## V4 视觉调整
+
+- 联系方式移至左侧 profile，移动端显示于个人介绍下方。
+- 论文配图圆角、浮动投影及左上角会议标签。
+- 一作/通讯作者论文与 highlighted 标记改为浅蓝灰色，并适配深色模式。
+- About Me 中学校及学院链接共用人大官网校徽（https://www.ruc.edu.cn/template/1/out/imgs/VI/1.png，来自官网学校标识页）。外部图片加载失败时显示本地通用校园图标；导师使用本地通用人物图标，并非本人照片。若需要完全离线的官方校徽，可将官网原图下载到 assets/img 后更新对应 src。
+
+## V5 视觉调整
+
+- 移除所有论文条目背景高亮与外框，同时删除说明中的高亮描述。保留论文筛选、作者身份标记、缩略图投影及会议标签。
+- 头像按原始 357 × 500 比例显示，采用轻微圆角矩形，完整显示头部与肩部，不裁切。
