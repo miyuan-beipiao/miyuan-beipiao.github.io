@@ -1,10 +1,10 @@
 # Yuan Mi | Academic Homepage
 
-基于用户提供的 Minimal Light 静态 HTML 版本，保留其固定左侧个人栏、右侧正文和简洁学术配色；仅移植用户指定的三项效果：论文分类筛选与作者展开、3D 项目词云、全宽火星背景渐变页脚。纯 HTML/CSS/JS，无需 Jekyll 或 Node；字体可选用原模板的 Google Fonts，加载失败时自动回退至系统衬线字体。
+基于 Minimal Light 静态 HTML 版本，保留其固定左侧个人栏、右侧正文和简洁学术配；补充三项效果：论文分类筛选与作者展开、3D 项目词云、全宽火星背景渐变页脚。纯 HTML/CSS/JS，无需 Jekyll 或 Node；字体可选用原模板的 Google Fonts，加载失败时自动回退至系统衬线字体。
 
 ## 发布到 GitHub Pages
 
-1. 在 GitHub 新建 Public 仓库，命名为 `你的GitHub用户名.github.io`（不要直接使用别人用户名）。
+1. 在 GitHub 新建 Public 仓库，命名为 `个人GitHub用户名.github.io`。
 2. 解压本 ZIP，将其中 **全部文件和 assets 文件夹** 上传至仓库根目录（`index.html` 必须在根目录，而不是另一个子目录内）。`.nojekyll` 是隐藏文件，建议一并上传；也可以在 GitHub 上新建该空文件。
 3. 打开 Settings → Pages → Build and deployment，选择 Deploy from a branch → main（或实际默认分支）→ /(root) → Save。
 4. 部署成功后访问 `https://你的GitHub用户名.github.io/`。
@@ -24,9 +24,9 @@
 
 ## 发布前核对
 
-- 简历没有确认武汉大学博士后实际入职日期，当前显示已获中国人民大学博士学位，不将武汉大学写成已入职单位。如已入职，修改顶部 position / affiliation 及 About Me，并增加经历。
-- 公开邮箱和照片均来自提供的简历；如不希望公开可替换。未公开电话、生日、原始完整简历、在审及备投论文、涉军项目。
-- 论文数据依据所提供简历，未独立核验书目信息；CCF/CAS/CSSCI 标签亦沿用简历，未附引用次数以避免过时。Find paper 为按标题搜索，不是假造 DOI 或论文直链。可补充真实的 Paper、Code、Google Scholar、GitHub 和 DBLP 主页链接。
+- 顶部 position / affiliation 及 About Me，并增加经历。
+- 公开邮箱和照片；如不希望公开可替换。电话、生日、在审及备投论文、涉军项目未公开。
+- 未附引用次数以避免过时。Find paper 为按标题搜索，不是假造 DOI 或论文直链。可补充真实的 Paper、Code、Google Scholar、GitHub 和 DBLP 主页链接。
 - 静态 Minimal Light 样式及其许可见 LICENSE-minimal-light。第一个模板来源为 https://github.com/w-r-s/academic-homepage-template ，仅参考交互并重写相关代码，保留其提供的火星背景图片以供用户预览和确认使用授权。
 
 ## 本版验证
@@ -61,4 +61,4 @@
 
 - 新版入口引用 `assets/css/homepage-v6.css`，不再引用旧文件名。旧 `homepage.css` 同步更新以兼容其他页面。
 - HTML 内置头像与论文条目关键规则，确保旧模板不会再次覆盖。
-- 请同时上传新版 index.html 和 assets/css/homepage-v6.css。不要只复制 HTML。部署完成后可使用 Cmd+Shift+R（Mac）或 Ctrl+Shift+R（Windows）强制刷新。
+- 部署完成后可使用 Cmd+Shift+R（Mac）或 Ctrl+Shift+R（Windows）强制刷新。
