@@ -1,4 +1,4 @@
-# Yuan Mi | Academic Homepage
+# Yuan Mi | Academic Homepage [Preview](https://miyuan-beipiao.github.io/)
 
 基于 Minimal Light 静态 HTML 版本，保留其固定左侧个人栏、右侧正文和简洁学术配；补充三项效果：论文分类筛选与作者展开、3D 项目词云、全宽火星背景渐变页脚。纯 HTML/CSS/JS，无需 Jekyll 或 Node；字体可选用原模板的 Google Fonts，加载失败时自动回退至系统衬线字体。
 
